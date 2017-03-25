@@ -1,0 +1,10 @@
+2017-02-17 6:00pm: Mauricio cleared my doubt about Z buffering
+2017-02-18 2:00pm: Basic operations on vectors : https://cal-linux.com/tutorials/vectors.html
+2017-02-18 5:00pm: Mauricio cleared my doubt about the FOV and the look vector
+2017-02-19 3:00pm: Mauricio cleared my doubt about the when to round off values during scan conversion
+2017-02-19 4:00pm: Spoke to Benedict about getting small bounding boxes for the current projection matrix formulation
+2017-03-1 2:00pm: Benedict helped with the problem with the Z-buffer
+2017-03-1 4:00pm: Aliasing problem resolved during OH (Increase resolution, use combos of ceils and floors)
+
+
+

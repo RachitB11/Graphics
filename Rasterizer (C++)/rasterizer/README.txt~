@@ -1,0 +1,28 @@
+Code for Rasterization, written by Rachit Bhargava.
+
+This code takes in the 3D model of the object (.obj format) and the camera information and returns the 2D image from the perspective of 
+the camera with user defined shading.
+
+tiny_obj_loader.cc and tiny_obj_loader.h were written by Syoyo Fujita for loading .obj files in a usable format.
+
+SETUP:
+
+Enter the directory from command line and 'make'.
+
+USAGE:
+
+./rasterize <input.obj> <camera.txt> <width> <height> <output.ppm> <options>
+
+Example: 
+./rasterize wahoo.obj camera2.txt 4000 4000 output.ppm --norm_bazy_z
+./rasterize dodecahedron.obj camera.txt 1000 1000 output.ppm --norm_bazy_z
+
+OPTIONS:
+
+no option	: Use the diffuse value from the materials object in the .obj file
+--white		: Color all pixels white
+--norm_flat	: Color each triangle with the normal value of the 1st vertex of the triangle
+--norm_gouraud	: Color triangles with the normal values of the vertex using gouraud shading
+--norm_bary	: Color triangles with the normal values of the vertex using barycentric coordinates
+--norm_gouraud_z	: Color triangles with the normal values of the vertex using gouraud shading with perspective corrected depth
+--norm_bary_z	: Color triangles with the normal values of the vertex using barycentric coordinates with perspective corrected depth
