@@ -1,0 +1,5 @@
+03-29-2017 2:00pm Benedict helped me with the conversion to QImage problem
+03-29-2017 3:00pm Discussed the conversion to QImage problem in OH
+03-30-2017 1:00am Solved the problem using this link http://www.qtforum.org/article/18547/unable-to-convert-image-to-qpixmap.html
+03-30-2017 3:00pm Benedict resolved my doubt about destroying the QImage object
+
